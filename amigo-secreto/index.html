@@ -1,34 +1,37 @@
 <!DOCTYPE html>
 <html lang="pt">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Amigo Secreto</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="principal">
         <br><br>
         <h1>Amigo Secreto</h1>
         <p>Adicione o nome dos seus amigos, e descubra quem será o <strong>escolhido</strong>!</p>
-    </div>
-
-    <section class="left-side">
         <form>
             <br>
             <input type="text" min="1" max="40" id="name" class="container__input">
             <button id="buttonAdd" type="button" class="buttonAdd">Adicionar</button>
         </form>
-    </section>
 
-    <div id="nameList">
-        <ul id="nameList"></ul> 
+        <section class="left-side">
+            <div id="nameList">
+                <ul id="nameList"></ul>
+            </div>
+        </section>
+
+        <section class="right-side">
+            <img src="img/social-life-animate.svg" alt="pessoas" class="image">
+        </section>
+
     </div>
 
-    <section class="right-side">
-         <img src="img/social-life-animate.svg" alt="pessoas" class="image">
-    </section>
-        
     <script src="app.js" defer></script>
 </body>
+
 </html>

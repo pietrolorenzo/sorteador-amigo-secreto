@@ -1,15 +1,14 @@
 * {
-    box-sizing: border-box;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
     color: rgb(0, 0, 0);
     background-color: rgb(247, 225, 205);
+    
 }
 
 .principal {
     font-size:larger;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-size-adjust: true;
     text-align: center;
     
@@ -20,13 +19,15 @@
     text-align: center;
     padding-left: 50px;
     padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin: 4rem 0 0 8rem;
+    
 }
 
 .namelist {
     padding-right: 60px;
-    
-
-
 }
 
 .right-side {
@@ -42,7 +43,7 @@ input {
     border-radius: 25px;
     border: 2px solid rgb(3, 0, 5);
     padding: 10px; 
-    height: 40px;    
+    height: 25aaspx;    
 }
 
 .buttonAdd {
@@ -55,8 +56,7 @@ input {
     height: 15px; 
 }
 .image {
-    width: 35vw;
-    text-align: right;
-    padding: 10px;;
+    width: 40vw;
+    margin-bottom: 10rem;
 }
 
